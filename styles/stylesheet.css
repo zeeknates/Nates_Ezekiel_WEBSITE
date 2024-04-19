@@ -1,0 +1,275 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body, html {
+    margin: 0;
+    height: 100%;
+}
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+.nav a {
+    font-family: "Mada"; 
+    font-size: 40px;
+    padding: 0 50px;
+    font-weight: bolder;
+    text-decoration: none;
+    color: black;
+}
+.header {
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+}
+.nav {
+    display: flex;
+    align-items: center;
+}
+.nav img {
+    min-width: 100px;
+}
+.h-menu {
+    display: none;
+    border: none;
+    background-color: transparent;
+}
+.h-menu:hover {
+    cursor: pointer;
+}
+.material-symbols-outlined {
+    font-size: 22px;
+}
+.socialicons {
+    text-align: center;
+    padding: 10px 0px;
+}
+.socialicons a {
+    padding: 0px 10px;
+}
+.btn {
+    display: inline-block;
+    background-color: #FFE640;
+    border: none;
+    font-family: "Mada";
+    font-size: 27px;
+    padding: 10px 10px;
+}
+.hero-image {
+    background-image: url(../images/kasamahero2.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.text-center {
+    text-align: center;
+}
+.button {
+    padding: 20px 20px;
+}
+.bg4pics {
+    background-color: #46453E;
+    width: 100%;
+    background-size: cover;
+    position: relative;
+    max-width: 1320px;
+    margin: 0 auto;
+}
+.bg4bs {
+    width: 100%;
+    background-size: cover;
+    position: relative;
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.bg-grey {
+    background-color: #46453E;
+}
+.col-4 {
+    flex-basis: 30%;
+}
+.col-8 {
+    flex-basis: 70%;
+}
+.col-10 {
+    flex-basis: 83%;
+    padding: 50px 10px;
+}
+.breakfast {
+    background-image: url(../images/toast_\(10\).png);
+    max-width: 460px;
+    min-height: 330px;
+    background-size: cover;
+}
+.lunch {
+    background-image: url(../images/filipino-food-simply-philippines-268\ -\ Copy.png);
+    max-width: 460px;
+    min-height: 330px;
+    background-size: cover;
+}
+.dinner {
+    background-image: url(../images/15927979315_78682f05f3_k\ -\ Copy.png);
+    max-width: 460px;
+    min-height: 330px;
+    background-size: cover;
+}
+.dessert {
+    background-image: url(../images/filipino_food_05.png);
+    max-width: 460px;
+    min-height: 330px;
+    background-size: cover;
+}
+.flex-container {
+    display: flex;
+}
+.mb-3 {
+    margin-bottom: 12px;
+}
+.aligntext {
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+font-family: "Mada";
+font-weight: bolder;
+font-size: 35px;
+color: white;
+}
+.container {
+    max-width: 1032px;
+    margin: 0 auto;
+}
+.community-image {
+    background-image: url(../images/42310092_m-1020x680.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.community-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: "Mada";
+    font-weight: bolder;
+    color: black;
+    padding-top: 0px;
+    padding-bottom: 40px;
+}
+.com-text2 {
+    text-align: center;
+    font-family: "Mada";
+    font-weight: bolder;
+    font-size: 30px;
+    color: black;
+    max-width: 800px;
+    margin: 0 auto;
+    padding-top: 40px;
+    padding-bottom: 0;
+}
+.com-text3 {
+    text-align: center;
+    font-family: "Mada";
+    font-weight: bolder;
+    font-size: 30px;
+    color: black;
+    max-width: 800px;
+    margin: 0 auto;
+    padding-bottom: 40px;
+    padding-top: 0;
+}
+.footertext {
+    font-family: "Mada";
+    font-size: 20px;
+    color: black;
+}
+.bstext {
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: center;
+    color: black;
+}
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 35px 35px;
+    text-align: center;
+    flex-wrap: wrap;
+}
+.bstext2 {
+    padding-bottom: 30px;
+    font-family: "Mada";
+    font-weight: bolder;
+    color: black;
+}
+.place-items-center {
+    align-items: center;
+}
+
+
+@media (max-width: 500px) {
+    .nav-links {
+        display: none;
+    }
+    .h-menu {
+        display: inline-block;
+    }
+    .nav {
+        flex-basis: 100%;
+        justify-content: space-between;
+    }
+    .nav a {
+        padding: 0;
+    }
+    .bstext {
+        flex-wrap: wrap;
+    }
+    .img {
+        flex-wrap: wrap;
+    }
+    .nav img {
+        width: 75px;
+        min-width: auto;
+    }
+    .aligntext {
+        font-size: 25px;
+    }
+    .com-text3 {
+        font-size: 20px;
+    }
+    .com-text2 {
+        font-size: 25px;
+    }
+    .bstext {
+        flex-wrap: wrap;
+        display: flex;
+    }
+    .bstext2 {
+        flex-basis: 100%;
+    }
+    .col-4{
+        flex-basis: 100%;
+    }
+    .col-8{
+        flex-basis: 100%;
+    }
+}
